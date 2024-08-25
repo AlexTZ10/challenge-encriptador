@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador</title>
+</head>
+
+<body>
+
+
+    <header>
+        <img class="logo" src="./imagenes/Logo.svg" alt="logo">
+    </header>
+
+    <main>
+
+        <section class="seccion-principal">
+
+            <div class="container-texto">
+                <textarea placeholder="Ingrese el texto aqui" class="caja-texto"></textarea>
+            </div>
+
+            <div class="espacio-alerta">
+                <img src="./imagenes/alerta.svg" alt="">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="container-botones">
+
+                <input type="button" class="btn-encriptar" value="Encriptar">
+
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+
+        </section>
+
+
+        <section class="seccion-secundario">
+
+            <div class="container-imagen-persona">
+                <img src="./imagenes/personaje_programador.png" alt="">
+            </div>
+
+
+            <div class="container-parrafo">
+                <h3>Ningun mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br>desencriptar</p>
+            </div>
+
+
+            <div class="container-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+
+            <div class="container-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-links">
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Contacto</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos de servicio</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/" class="social-icon"><img src="./imagenes/fb.png" alt="Twitter"></a>
+                <a href="https://x.com/" class="social-icon"><img src="./imagenes/x_new_twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/" class="social-icon"><img src="./imagenes/ig.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Challenge Encriptador. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
