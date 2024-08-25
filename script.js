@@ -11,6 +11,7 @@ function encriptar() {
   var cajatexto = recuperarTexto();
   if (contieneAcentosOTraCaracteristica(cajatexto)) {
     console.log("El texto contiene caracteres no permitidos.");
+    alert("No está permitido encriptar ese texto");
     return;
   }
   ocultarAdelante();
@@ -21,6 +22,7 @@ function desencriptar() {
   var cajatexto = recuperarTexto();
   if (contieneAcentosOTraCaracteristica(cajatexto)) {
     console.log("El texto contiene caracteres no permitidos.");
+    alert("No está permitido desencriptar ese texto");
     return;
   }
   ocultarAdelante();
